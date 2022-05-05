@@ -8,6 +8,6 @@ namespace kwFinalProject.models
             : base(options)
             {
             }
-            public DbSet<PokemonDbContext> Pokemons {get; set;}
+            public DbSet<User> Pokemons {get; set;}
     }
 }

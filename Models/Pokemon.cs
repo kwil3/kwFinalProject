@@ -6,7 +6,7 @@ namespace kwFinalProject.models
 {
     public class User
     {
-        public int pokeID {get; set;} //primary key
+        public int userID {get; set;} //primary key
         public String pokeName {get; set;}
         public int attack {get; set;}
         public int defense {get; set;}
